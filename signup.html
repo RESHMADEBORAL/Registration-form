@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="signup.js"></script>
+    <link rel="stylesheet" href="signup.css">
+    
+</head>
+<body>
+    <h1>Login Form</h1>
+    <form class="subtitle" onsubmit="validate(event)">
+        <label>Enter your name</label>
+        <input id="name" type="text" placeholder="your name here"><br><br>
+        <label>Enter your Phone number</label>
+        <input class="phn" type="tel" placeholder="9123456789"><br><br>
+        <span id="phnError"></span><br>
+        <label>Enter your Email</label>
+        <input id="email" type="text" placeholder="yourmail@abc.com"><br><br>
+        <span id="errorEmail"></span><br><br>
+        <label>Enter your Password</label>
+        <input id="pass" type="password"><br><br>
+        <span id="errorPass"></span><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
